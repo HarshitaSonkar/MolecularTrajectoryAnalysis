@@ -19,9 +19,7 @@ object HBondMaster {
     return fileList.toArray
   }
 
-
-
-  def main(args: Array[String]): Unit = {
+    def main(args: Array[String]): Unit = {
 
     Logger.getLogger("org").setLevel(Level.ERROR)
     val spark = SparkSession.builder.getOrCreate()
